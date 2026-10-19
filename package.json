@@ -1,0 +1,18 @@
+{
+  "name": "practice5-contacts-api",
+  "version": "1.0.0",
+  "description": "REST API для управления телефонными контактами",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Ваше имя",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "mongodb": "^7.7.0"
+  }
+}
